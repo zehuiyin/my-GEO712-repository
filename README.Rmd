@@ -75,7 +75,7 @@ Text used:
 - renv
   - ...
 - _dependencies.R
-- my_first_repository.Rproj
+- my-GEO712-repository.Rproj
 - README.md
 - README.Rmd
 - renv.lock
@@ -94,7 +94,7 @@ Text used:
 ├── renv/
 │   └── ...
 ├── _dependencies.R
-├── my_first_repository.Rproj
+├── my-GEO712-repository.Rproj
 ├── README.md
 ├── README.Rmd
 ├── renv.lock
