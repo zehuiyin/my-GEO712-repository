@@ -1,7 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-*This repository is an activity for the course [GEOG 712 Reproducible
+*This repository is an activity completed by [Zehui
+Yin](https://zehuiyin.github.io/) for the course [GEOG 712 Reproducible
 Research Workflow with GitHub and
 R](https://academiccalendars.romcmaster.ca/preview_course.php?catoid=55&coid=274877),
 taught by [Dr. Antonio Paez](https://experts.mcmaster.ca/display/paezha)
@@ -76,10 +77,15 @@ $$
 
 ``` r
 # run a linear regression with the built-in dataset mtcars
-lm(mpg ~ cyl + hp + wt + vs + am,
-   data = mtcars) |>
-  # summarize the regression results
-  summary()
+m1 <- lm(mpg ~ cyl + hp + wt + vs + am, 
+         data = mtcars)
+
+# save the model results to data folder
+saveRDS(m1, file = "./data/m1.rds")
+
+
+# summarize the regression results
+summary(m1)
 #> 
 #> Call:
 #> lm(formula = mpg ~ cyl + hp + wt + vs + am, data = mtcars)
