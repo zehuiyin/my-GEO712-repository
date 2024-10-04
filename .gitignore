@@ -4,3 +4,12 @@
 .httr-oauth
 .DS_Store
 .quarto
+
+# too large to be commited
+ontario-latest.osm.pbf
+
+# hide API key
+.Renviron
+
+# remove census mapper intermediate data
+/census_data/

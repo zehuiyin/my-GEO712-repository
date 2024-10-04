@@ -1,2 +1,5 @@
 Data Name,Source (URL),Accessed Date
-Transit_Service_Areas.geojson,https://open.hamilton.ca/datasets/f43b64fa7c2344ac8af21217d20fc025_1/explore,2024-9-20
+grocery.geojson,https://overpass-turbo.eu/index.html,2024-10-04
+fall2024_GTFS_static,https://opendata.hamilton.ca/GTFS-Static/,2024-10-04
+ontario_latest_cropped.osm.pbf,https://download.geofabrik.de/north-america/canada/ontario.html,2024-10-04
+hamilton_CT.geojson,https://censusmapper.ca/api,2024-10-04
