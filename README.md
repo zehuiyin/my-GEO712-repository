@@ -192,42 +192,44 @@ sources require proper credit or acknowledgment as the data providers.*
 
   - Where will you keep raw data and how will you back it up?
 
-*All the raw data I use will be kept in the `data-raw/` folder and
-pushed to GitHub, while also being stored locally on my laptop.
-Additionally, I’ll keep a zipped folder of all the raw data on an
-external hard drive as a physical backup.*
+  *All the raw data I use will be kept in the `data-raw/` folder and
+  pushed to GitHub, while also being stored locally on my laptop.
+  Additionally, I’ll keep a zipped folder of all the raw data on an
+  external hard drive as a physical backup.*
 
-- What file formats do you anticipate your data will be in? Are the
-  formats open or can they be converted to open formats?
+  - What file formats do you anticipate your data will be in? Are the
+    formats open or can they be converted to open formats?
 
-*I anticipate my data will be in `geojson`, `csv`, `GTFS`, and `PBF`
-formats. These are all open formats, and there are open-source and free
-tools available to work with each of them.*
+  *I anticipate my data will be in `geojson`, `csv`, `GTFS`, and `PBF`
+  formats. These are all open formats, and there are open-source and
+  free tools available to work with each of them.*
 
-- Create a File naming convention for your project data
+  - Create a File naming convention for your project data
 
-*I will use lowercase words and underscores for all project data, except
-for established acronyms like “GTFS,” where I will use capitalized
-characters.*
+  *I will use lowercase words and underscores for all project data,
+  except for established acronyms like “GTFS,” where I will use
+  capitalized characters.*
 
-- What standards are relevant to your project? List any existing
-  standards or best practices in use in your field or in your lab? This
-  could include instrument procedures or file management standards. What
-  standards might you want to create to help you manage your data?
+  - What standards are relevant to your project? List any existing
+    standards or best practices in use in your field or in your lab?
+    This could include instrument procedures or file management
+    standards. What standards might you want to create to help you
+    manage your data?
 
-*Versioning is crucial when conducting spatial analysis or econometric
-modelling. It is likely that we will try several specifications or
-different methods, resulting in multiple versions. Previously, I created
-separate folders for each version and added the date to the folder name.
-However, since we are now using Git, I will commit changes after every
-analysis step or when processed data is added to the project. This way,
-if something goes wrong, I can always revert back.*
+  *Versioning is crucial when conducting spatial analysis or econometric
+  modelling. It is likely that we will try several specifications or
+  different methods, resulting in multiple versions. Previously, I
+  created separate folders for each version and added the date to the
+  folder name. However, since we are now using Git, I will commit
+  changes after every analysis step or when processed data is added to
+  the project. This way, if something goes wrong, I can always revert
+  back.*
 
-- List possible strategies you might use to document your data
-  throughout your project.
+  - List possible strategies you might use to document your data
+    throughout your project.
 
-*I use a `csv` file in the `data-raw/` folder to document where and when
-I obtained each piece of raw data. Processed data will be placed in the
-`data/` folder to keep it separate from the raw data. Additionally, a
-`README` text file will be created in the data folder to explain any
-intermediate data if needed.*
+  *I use a `csv` file in the `data-raw/` folder to document where and
+  when I obtained each piece of raw data. Processed data will be placed
+  in the `data/` folder to keep it separate from the raw data.
+  Additionally, a `README` text file will be created in the data folder
+  to explain any intermediate data if needed.*

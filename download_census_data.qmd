@@ -8,6 +8,7 @@ format: html
 library(sf)
 library(cancensus)
 library(mapview)
+library(tidyverse)
 readRenviron(".Renviron")
 ```
 
@@ -29,6 +30,16 @@ census_data <- get_census(
   level = "CT")
 
 mapview(census_data)
+```
+
+```{r}
+census_data |>
+  mutate(density = `v_CA21_1: Population, 2021`/`Area (sq km)`) |>
+  ggplot() +
+  geom_sf(aes(fill = density))
+
+ggsave("./images/hamilton_CT.png", dpi = 300,
+       width = 7.29, height = 4.5)
 ```
 
 ```{r}
