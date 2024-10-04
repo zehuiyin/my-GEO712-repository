@@ -121,7 +121,7 @@ Generated using https://tree.nathanfriend.io
   - data_source.csv
   - ...
 - images
-  - toronto_crime.png
+  - hamilton_CT.png
 - renv
   - ...
 - _dependencies.R
@@ -139,7 +139,7 @@ Generated using https://tree.nathanfriend.io
     │   ├── data_source.csv
     │   └── ...
     ├── images/
-    │   └── toronto_crime.png
+    │   └── hamilton_CT.png
     ├── renv/
     │   └── ...
     ├── _dependencies.R
